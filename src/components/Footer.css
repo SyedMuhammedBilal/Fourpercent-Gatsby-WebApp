@@ -1,0 +1,88 @@
+.footer__background {
+    background: #dd226e;
+    border-top-left-radius: 315%;
+    border-top-right-radius: 315%;
+    color: #fff;
+    font-weight: 200;
+    padding: 100px;
+    margin-top: 10vh;
+}
+
+.footer__logo {
+    position: absolute;
+    top: 23vh;
+    width: 25%;
+    left: 6vw;
+}
+
+.footer__logo img {
+    width: 100%;
+}
+
+.footer__content {
+    position: absolute;
+    top: 40vh;
+    display: flex;
+    width: 100%;
+    left: 7vw;
+    font-weight: 200;
+    color: #fff;
+    width: 80%;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.right-content {
+    display: flex;
+}
+
+.right-content p {
+    padding-right: 2vw;
+}
+
+.curve__background {
+    position: relative;
+    color: #fff;
+    font-weight: 200;
+    font-size: 24px;
+}
+
+.curve__background img {
+    width: 100%;
+}
+
+@media (min-width: 200px) and (max-width: 500px) {
+    .curve__background {
+        font-size: 14px;
+    }
+
+    .curve__background img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .footer__logo {
+        width: 38%;
+        top: 5vh;
+    }
+
+    .footer__content {
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        top: 10vh;
+        width: 81%;
+    }
+
+    .right-content {
+        justify-content: center;
+        align-items: center;
+        width: 20vh;
+    }
+
+    .right-content p {
+        padding-right: 2vw;
+    }
+}

@@ -1,0 +1,5 @@
+.hero__cover {
+    background: url('../images/header.png') no-repeat center center;
+    width: 100vw;
+    height: 100vh;
+}
