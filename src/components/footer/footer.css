@@ -1,0 +1,233 @@
+/* style={{
+    margin: `0 Auto`,
+    maxWidth: `100%`,
+    color: `#FFF`,
+    padding: `9.0875rem 9.0875rem 9.45rem`,
+}} */
+
+.under {
+    width: 100%;
+    background: url("./curve.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    overflow-x: hidden;
+    margin: 0 Auto;
+    max-width: 100%;
+    color: #FFF;
+    padding: 9.0875rem 9.0875rem 9.45rem;
+}
+
+.c {
+    height: 2vh;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.leftConer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.logo {
+    width: 45vh;
+    height: 15vh;
+}
+
+.span {
+    margin-left: 7%;
+}
+
+.rightCorner {
+    display: flex;
+    flex-direction: row;
+    white-space: break-spaces;
+    align-items: flex-end;
+}
+
+@media screen and (max-width: 1500px) {
+    .under {
+        width: 100%;
+        background: url("./curve.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0 Auto !important;
+        max-width: 100% !important;
+        color: #FFF !important;
+        padding: 3.0875rem 3.0875rem 3.45rem !important;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .leftConer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: flex-start;
+    }
+    .logo {
+        width: 35vh;
+        height: 10vh;
+    }
+    .span {
+        margin-left: 7%;
+        font-size: 20px;
+    }
+    .rightCorner {
+        display: flex;
+        flex-direction: row;
+        white-space: break-spaces;
+        align-items: flex-end;
+    }
+    .rightCorner a {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .under {
+        width: 100%;
+        background: url("./curve.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0 Auto !important;
+        max-width: 100% !important;
+        color: #FFF !important;
+        padding: 3.0875rem 3.0875rem 3.45rem !important;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .leftConer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: flex-start;
+    }
+    .logo {
+        width: 30vh;
+        height: 9vh;
+    }
+    .span {
+        margin-left: 9%;
+        font-size: 18px;
+    }
+    .rightCorner {
+        display: flex;
+        flex-direction: row;
+        white-space: break-spaces;
+        align-items: flex-end;
+    }
+    .rightCorner a {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .under {
+        width: 100%;
+        background: url("./curve.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0 Auto !important;
+        max-width: 100% !important;
+        color: #FFF !important;
+        padding: 1.0875rem 1.0875rem 1.45rem !important;
+    }
+    .c {
+        height: 1vh;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+    }
+    .leftConer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: flex-start;
+    }
+    .logo {
+        width: 30vh;
+        height: 9vh;
+    }
+    .span {
+        margin-left: 3%;
+        font-size: 12px;
+    }
+    .rightCorner {
+        display: flex;
+        flex-direction: row;
+        white-space: break-spaces;
+        align-items: flex-end;
+    }
+    .rightCorner a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .under {
+        width: 100%;
+        background: url("./curve.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        overflow-x: hidden;
+        margin: 0 Auto !important;
+        max-width: 100% !important;
+        color: #FFF !important;
+        padding: 1.0875rem 1.0875rem 1.45rem !important;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3%;
+    }
+    .leftConer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        align-items: flex-start;
+    }
+    .logo {
+        width: 23vh;
+        height: 7vh;
+    }
+    .span {
+        margin-left: 5%;
+        font-size: 9px;
+    }
+    .span a {
+        padding: 0%;
+    }
+    .rightCorner {
+        display: flex;
+        flex-direction: row;
+        white-space: break-spaces;
+        align-items: flex-end;
+    }
+    .rightCorner a {
+        font-size: 9px;
+    }
+    .c {
+        height: 0.9vh;
+    }
+}
